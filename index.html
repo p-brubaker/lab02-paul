@@ -8,15 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-  <main>
-      <section class="top">
-          <h1>Hello</h1>
-          <h2>my name is</h2>
-      </section>
-      <section class="middle">
-          Paul Blart
-      </section>
-      <section class="bottom"></section>
-  </main>
+    <nav>
+        <input type="text" id="input-field">
+        <button id="submit-btn">Enter your name to the left of me. Also I am a button.</button><br>
+        <input type="color" id="color-field">
+        <button id="submit-color">Hi! I change the color of your name tag!</button><br>
+        <input type="text" id="pronouns-field">
+        <button type="text" id="pronouns-submit">Enter pronouns to the left of me</button><br>
+        <button type="text" id="change-font-btn">Change the font if you must</button><br>
+        Indecisiveness Index: <span id="indecision">0</span>
+
+    </nav>
+    <content>
+        <main>
+            <section class="top" id="top-section">
+                <h1>Hello</h1>
+                <h2>my name is</h2>
+            </section>
+            <section class="middle" id="name-area">
+                Software Engineer
+            </section>
+            <section class="bottom" id="bottom-section"></section>
+        </main>
+    </content>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
